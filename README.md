@@ -75,4 +75,14 @@ response = requests.request("POST", url, json=payload, headers=headers)
 print(response.text)
 
 ```
+
+
+
+# curl 
+```
+curl -X POST http://127.0.0.1:9000/webhook/ -d '{ "yourdata": "Which data you want to send the webhook lister" }' --header 'Acme-Webhook-Token: testToken@654321'
+
+```
 # django-webhook
+
+
