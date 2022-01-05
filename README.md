@@ -86,6 +86,6 @@ curl -X POST http://127.0.0.1:9000/webhook/ -d '{ "yourdata": "Which data you wa
 # django-webhook for Django DRF
 **-H "Content-Type:application/json** is important
 ```
-curl -X POST http://localhost:8000/custom-autentication/users/login/ -H "Content-Type:application/json" -d '{"email": "admin@ims.com", "password": "testpass123"}'
+curl -X POST http://localhost:8000/custom-autentication/users/login/ -H "Content-Type:application/json" -d '{"email": "admin@admin.com", "password": "testpass123"}'
 ```
 
