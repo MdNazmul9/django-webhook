@@ -83,6 +83,9 @@ print(response.text)
 curl -X POST http://127.0.0.1:9000/webhook/ -d '{ "yourdata": "Which data you want to send the webhook lister" }' --header 'Acme-Webhook-Token: testToken@654321'
 
 ```
-# django-webhook
-
+# django-webhook for Django DRF
+**-H "Content-Type:application/json** is important
+```
+curl -X POST http://localhost:8000/custom-autentication/users/login/ -H "Content-Type:application/json" -d '{"email": "admin@ims.com", "password": "testpass123"}'
+```
 
